@@ -16,6 +16,9 @@ namespace TrafficLightsGroupe4
 {
     public class Bus : Vehicule
     {
-
+        public Bus()
+        {
+                
+        }
     }
 }

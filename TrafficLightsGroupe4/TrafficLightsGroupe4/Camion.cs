@@ -16,5 +16,9 @@ namespace TrafficLightsGroupe4
 {
     public class Camion : Vehicule
     {
+        public Camion()
+        {
+                
+        }
     }
 }
