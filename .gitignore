@@ -335,9 +335,6 @@ TrafficLightsGroupe4/TrafficLightsGroupe4/Properties
 TrafficLightsGroupe4/TrafficLightsGroupe4/App.config
 TrafficLightsGroupe4/TrafficLightsGroupe4/TrafficLightsConsole.csproj
 
-TrafficLightsGroupe4/UnitTestTrafficLights/
-!TrafficLightsGroupe4/UnitTestTrafficLights/TDDTrafficLights.cs
-
 TrafficLightsGroupe4/TrafficLightsGroupe4.sln
 
 .vs/

@@ -16,12 +16,12 @@ namespace UnitTestTrafficLights
     [TestClass]
     public class TDDTrafficLights
     {
-        List<Vehicules> vehicules;
+        List<Vehicule> vehicules;
 
         [TestInitialize]
         public void InitialisationListVehicules()
         {
-            vehicules = new List<Vehicules> {
+            vehicules = new List<Vehicule> {
             new Velo(),
             new Voiture(),
             new Tram(),
