@@ -328,13 +328,3 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
-
-TrafficLightsGroupe4/TrafficLightsGroupe4/bin
-TrafficLightsGroupe4/TrafficLightsGroupe4/obj
-TrafficLightsGroupe4/TrafficLightsGroupe4/Properties
-TrafficLightsGroupe4/TrafficLightsGroupe4/App.config
-TrafficLightsGroupe4/TrafficLightsGroupe4/TrafficLightsConsole.csproj
-
-TrafficLightsGroupe4/TrafficLightsGroupe4.sln
-
-.vs/
