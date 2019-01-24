@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TrafficLightsGroupe4.ArretTPG">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ArretTPG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Bus">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Camion">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Camion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Feux">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAgAAAAAAAACAAAAAQAAAAAAgAA=</HashCode>
+      <FileName>Feux.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Moto">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Moto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Program">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Routes">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAABCAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Routes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Tram">
+    <Position X="4.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Vehicule">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAUAAAEAAA4AAQAAEAAAAQABgCACCAAgQiAEABAQAA=</HashCode>
+      <FileName>Vehicule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Velo">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Velo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLightsGroupe4.Voiture">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="TrafficLightsGroupe4.Vehicule" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="5.483" />
+        <Point X="2.5" Y="5.483" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Voiture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
