@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+* Groupe      : Groupe4
+* Membres     : Martig Joey, Lorentz Florian, Calunsag Iya Katherine
+* Programme   : Traffic Light
+* Description : Créer un simulation réaliste du carrefour des esserts
+* Version     : 1.0.0 
+* Date        : 21.01.2019
+*/
+using System;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TrafficLightsGroupe4;
@@ -21,13 +29,6 @@ namespace UnitTestTrafficLights
             new Camion()
             };
         }
-
-        [TestMethod]
-<<<<<<< HEAD
-        public void LeFeuChangeDEtat()
-        {
-            
-=======
         public void CheckAccelerer()
         {
             foreach (var item in vehicules)
@@ -53,7 +54,6 @@ namespace UnitTestTrafficLights
         public void CleanListVehicules()
         {
             vehicules = null;
->>>>>>> 53715b27fc76b94662f0dbbc442ad7a10d2daa28
         }
     }
 }
