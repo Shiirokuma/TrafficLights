@@ -42,8 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bus.cs" />
+    <Compile Include="Camion.cs" />
+    <Compile Include="Feux.cs" />
+    <Compile Include="Moto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Routes.cs" />
+    <Compile Include="Tram.cs" />
+    <Compile Include="Vehicules.cs" />
+    <Compile Include="Velo.cs" />
+    <Compile Include="Voiture.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
