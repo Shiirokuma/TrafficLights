@@ -26,9 +26,12 @@ namespace UnitTestTrafficLights
             new Voiture(),
             new Tram(),
             new Moto(),
-            new Camion()
+            new Camion(),
+            new Bus()
             };
         }
+
+        [TestMethod]
         public void CheckAccelerer()
         {
             foreach (var item in vehicules)
