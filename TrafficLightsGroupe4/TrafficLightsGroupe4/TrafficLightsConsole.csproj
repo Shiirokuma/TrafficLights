@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArretTPG.cs" />
     <Compile Include="Bus.cs" />
     <Compile Include="Camion.cs" />
     <Compile Include="Feux.cs" />

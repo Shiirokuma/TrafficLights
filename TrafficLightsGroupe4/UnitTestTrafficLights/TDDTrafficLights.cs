@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TrafficLightsGroupe4;
 
@@ -8,9 +9,9 @@ namespace UnitTestTrafficLights
     public class TDDTrafficLights
     {
         [TestMethod]
-        public void Bobo()
+        public void LeFeuChangeDEtat()
         {
-            Velo velo = new Velo();
+            
         }
     }
 }
