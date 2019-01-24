@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    public class Vehicules
+    public abstract class Vehicules
     {
     }
 }
