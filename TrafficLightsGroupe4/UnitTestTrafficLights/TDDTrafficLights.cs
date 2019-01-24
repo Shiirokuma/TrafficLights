@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TrafficLightsGroupe4;
 
 namespace UnitTestTrafficLights
 {
@@ -7,8 +8,9 @@ namespace UnitTestTrafficLights
     public class TDDTrafficLights
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Bobo()
         {
+            Velo velo = new Velo();
         }
     }
 }
