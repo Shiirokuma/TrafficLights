@@ -14,7 +14,8 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    public class Bus : Vehicules
+    public class Bus : Vehicule
     {
+
     }
 }

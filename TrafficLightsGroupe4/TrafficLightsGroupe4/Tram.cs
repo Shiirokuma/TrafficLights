@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    public class Tram : Vehicules
+    public class Tram : Vehicule
     {
     }
 }

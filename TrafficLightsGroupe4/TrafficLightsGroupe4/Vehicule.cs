@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    public abstract class Vehicules
+    public abstract class Vehicule
     {
         private int _roues;
         private double _taille;
@@ -40,7 +40,7 @@ namespace TrafficLightsGroupe4
         public string PointArrivee { get => _pointArrivee; set => _pointArrivee = value; }
         public string Trajet { get => _trajet; set => _trajet = value; }
 
-        public Vehicules()
+        public Vehicule()
         {
             throw new NotImplementedException();
         }
