@@ -4,7 +4,7 @@
 * Programme   : Traffic Light
 * Description : Créer un simulation réaliste du carrefour des esserts
 * Version     : 1.0.0 
-* Date        : 21.01.2019
+* Date de création   : 21.01.2019
 */
 using System;
 using System.Collections.Generic;
@@ -14,14 +14,23 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    public class Feux
+    public class Feu
     {
         private string _type;
         private bool _etat;
+        private List<Vehicule> _traffic;
+        private List<Pieton> _pieton;
 
         public string Type { get => _type; set => _type = value; }
         public bool Etat { get => _etat; set => _etat = value; }
-        public Feux(string type, bool etat)
+        public List<Vehicule> Traffic { get => _traffic; set => _traffic = value; }
+        internal List<Pieton> Pieton { get => _pieton; set => _pieton = value; }
+
+        public Feu() : this("voiture", true)
+        {
+
+        }
+        public Feu(string type, bool etat)
         {
             Type = type;
             Etat = etat;

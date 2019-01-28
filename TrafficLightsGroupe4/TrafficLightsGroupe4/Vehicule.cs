@@ -4,7 +4,7 @@
 * Programme   : Traffic Light
 * Description : Créer un simulation réaliste du carrefour des esserts
 * Version     : 1.0.0 
-* Date        : 21.01.2019
+* Date de création   : 21.01.2019
 */
 using System;
 using System.Collections.Generic;
