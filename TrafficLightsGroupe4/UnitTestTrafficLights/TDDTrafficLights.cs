@@ -109,7 +109,5 @@ namespace UnitTestTrafficLights
         {
             vehicules = null;
         }
-
-        
     }
 }

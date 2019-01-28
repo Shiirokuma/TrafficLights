@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
