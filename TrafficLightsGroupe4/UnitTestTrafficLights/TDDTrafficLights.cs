@@ -53,10 +53,63 @@ namespace UnitTestTrafficLights
             }
         }
 
+        [TestMethod]
+        public void CheckIfBusIsStoppedSpeedShouldBe0()
+        {
+            ArretTPG arret = new ArretTPG();
+            Bus bus21 = new Bus();
+            arret.ArretBus(bus21);
+            Assert.AreEqual(0, bus21.Vitesse);
+        }
+
+        [TestMethod]
+        public void CheckIfBusIsGoneSpeedShouldNotBe0()
+        {
+            ArretTPG arret = new ArretTPG();
+            Bus bus21 = new Bus();
+            arret.ArretBus(bus21);
+            Assert.AreNotEqual(0, bus21.Vitesse);
+        }
+
+        [TestMethod]
+        public void CheckIfFeuxChangeColorShouldBeRed()
+        {
+            bool testFeux = false;
+            Feux feux = new Feux("Voiture", testFeux);
+            feux.ChangemantDEtat();
+            Assert.AreNotEqual(testFeux, feux.Etat);
+        }
+
+        #region Routes
+        [TestMethod]
+        public void CheckIfRoutesDirectionIsNotNull()
+        {
+            Routes route = new Routes(0, "route de chancy");
+            Assert.AreNotEqual(null, route.Direction);
+        }
+
+        [TestMethod]
+        public void CheckIfRoutesNomIsNotNull()
+        {
+            Routes route = new Routes(0, "route de chancy");
+            Assert.AreNotEqual(null, route.Nom);
+        }
+        #endregion
+
+        #region Vehicules
+        [TestMethod]
+        public void CheckIfVehiculesTailleIsNotNull()
+        {
+            Routes route = new Routes(0, "route de chancy");
+            Assert.AreNotEqual(null, route.Direction);
+        }
+        #endregion
         [TestCleanup]
         public void CleanListVehicules()
         {
             vehicules = null;
         }
+
+        
     }
 }
