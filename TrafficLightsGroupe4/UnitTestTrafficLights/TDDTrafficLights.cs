@@ -4,7 +4,7 @@
 * Programme   : Traffic Light
 * Description : Créer un simulation réaliste du carrefour des esserts
 * Version     : 1.0.0 
-* Date        : 21.01.2019
+* Date de création   : 21.01.2019
 */
 using System;
 using System.Collections.Generic;
@@ -75,7 +75,7 @@ namespace UnitTestTrafficLights
         public void CheckIfFeuxChangeColorShouldBeRed()
         {
             bool testFeux = false;
-            Feux feux = new Feux("Voiture", testFeux);
+            Feu feux = new Feu("Voiture", testFeux);
             feux.ChangemantDEtat();
             Assert.AreNotEqual(testFeux, feux.Etat);
         }
@@ -84,14 +84,14 @@ namespace UnitTestTrafficLights
         [TestMethod]
         public void CheckIfRoutesDirectionIsNotNull()
         {
-            Routes route = new Routes(0, "route de chancy");
+            Route route = new Route(0, "route de chancy");
             Assert.AreNotEqual(null, route.Direction);
         }
 
         [TestMethod]
         public void CheckIfRoutesNomIsNotNull()
         {
-            Routes route = new Routes(0, "route de chancy");
+            Route route = new Route(0, "route de chancy");
             Assert.AreNotEqual(null, route.Nom);
         }
         #endregion
@@ -100,7 +100,7 @@ namespace UnitTestTrafficLights
         [TestMethod]
         public void CheckIfVehiculesTailleIsNotNull()
         {
-            Routes route = new Routes(0, "route de chancy");
+            Route route = new Route(0, "route de chancy");
             Assert.AreNotEqual(null, route.Direction);
         }
         #endregion

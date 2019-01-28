@@ -3,7 +3,7 @@
   <Class Name="TrafficLightsGroupe4.ArretTPG">
     <Position X="8" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <HashCode>AAAgAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
       <FileName>ArretTPG.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -21,11 +21,11 @@
       <FileName>Camion.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="TrafficLightsGroupe4.Feux">
+  <Class Name="TrafficLightsGroupe4.Feu">
     <Position X="6.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAgAAAAAAAACAAAAAQAAAAAAgAA=</HashCode>
-      <FileName>Feux.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAgAAAAAAAACAkAAAQAAAAAAgAA=</HashCode>
+      <FileName>Feu.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TrafficLightsGroupe4.Moto">
@@ -42,11 +42,11 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="TrafficLightsGroupe4.Routes">
+  <Class Name="TrafficLightsGroupe4.Route">
     <Position X="8" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAACAAAAAABCAAAAAAAAAIAAAAAAA=</HashCode>
-      <FileName>Routes.cs</FileName>
+      <FileName>Route.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TrafficLightsGroupe4.Tram">

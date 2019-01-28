@@ -4,7 +4,7 @@
 * Programme   : Traffic Light
 * Description : Créer un simulation réaliste du carrefour des esserts
 * Version     : 1.0.0 
-* Date        : 21.01.2019
+* Date de création   : 21.01.2019
 */
 using System;
 using System.Collections.Generic;
@@ -14,16 +14,23 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    public class Routes
+    public class Route
     {
         private int _direction;
         private string _nom;
         public int Direction { get => _direction; set => _direction = value; }
         public string Nom { get => _nom; set => _nom = value; }
-        public Routes(int direction, string nom)
+
+        public Route() : this(1, "Route de Chancy")
+        {
+                
+        }
+
+        public Route(int direction, string nom)
         {
             Direction = direction;
             Nom = nom;
         }
+
     }
 }

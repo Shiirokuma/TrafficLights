@@ -4,7 +4,7 @@
 * Programme   : Traffic Light
 * Description : Créer un simulation réaliste du carrefour des esserts
 * Version     : 1.0.0 
-* Date        : 21.01.2019
+* Date de création   : 21.01.2019
 */
 using System;
 using System.Collections.Generic;
@@ -16,10 +16,20 @@ namespace TrafficLightsGroupe4
 {
     public class ArretTPG
     {
-        public ArretTPG()
+        private string nomArret;
+
+        public string NomArret { get => nomArret; set => nomArret = value; }
+
+
+        public ArretTPG() : this("Les Essert")
         {
 
         }
+        public ArretTPG(string nomArret)
+        {
+            NomArret = nomArret;
+        }
+
         public void ArretBus(Bus bus)
         {
             // Arreter le bus
