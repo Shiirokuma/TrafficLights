@@ -16,7 +16,6 @@ namespace TrafficLightsWF
         public Main()
         {
             InitializeComponent();
-            
         }
     }
 }
