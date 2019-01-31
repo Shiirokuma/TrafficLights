@@ -31,7 +31,7 @@ namespace TrafficLightsGroupe4
         private string _trajet;
         private string _image;
         public enum Type {
-            NORMAUX = 0,
+            NORMAL = 0,
             SIS = 1,
             TPG = 2
         };
