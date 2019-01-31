@@ -14,11 +14,21 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    public class Velo : Vehicule
+    public class Velo : Vehicule, IFeu
     {
         public Velo()
         {
 
         }
+        public void Stopper()
+        {
+
+        }
+
+        public void Accelerer()
+        {
+            // -> int speed = vitesse * 2 
+        }
+
     }
 }

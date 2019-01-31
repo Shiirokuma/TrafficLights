@@ -72,14 +72,14 @@ namespace TrafficLightsGroupe4
             this.Image = image;
         }
 
-        public double Accelerer()
+        /*public double Accelerer()
         {
             throw new NotImplementedException();
-        }
+        }*/
 
-        public double Freiner()
+        /*public double Freiner()
         {
             throw new NotImplementedException();
-        }
+        }*/
     }
 }

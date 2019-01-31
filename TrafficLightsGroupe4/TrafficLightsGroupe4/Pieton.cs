@@ -15,11 +15,21 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    class Pieton
+    class Pieton : IFeu
     {
         public Pieton()
         {
 
         }
+        public void Stopper()
+        {
+
+        }
+
+        public void Accelerer()
+        {
+            // -> int speed = vitesse * 2 
+        }
+
     }
 }

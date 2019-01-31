@@ -13,6 +13,7 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Bus.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="TrafficLightsGroupe4.Camion">
     <Position X="4.25" Y="3.25" Width="1.5" />
@@ -24,7 +25,7 @@
   <Class Name="TrafficLightsGroupe4.Feu">
     <Position X="6.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAgAAAAAAAACAkAAAQAAAAAAgAA=</HashCode>
+      <HashCode>AAAAAAAAAAAABAUAAAgAAAAAAAACAkAAAQAAAAAAgAA=</HashCode>
       <FileName>Feu.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -36,14 +37,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="TrafficLightsGroupe4.Program">
-    <Position X="6.25" Y="3.75" Width="1.5" />
+    <Position X="6.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TrafficLightsGroupe4.Route">
-    <Position X="8" Y="2.5" Width="1.5" />
+    <Position X="8" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAACAAAAAABCAAAAAAAAAIAAAAAAA=</HashCode>
       <FileName>Route.cs</FileName>
@@ -55,11 +56,19 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Tram.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="TrafficLightsGroupe4.Vehicule">
     <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="TrafficLightsGroupe4.Vehicule.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Vehicule.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AIAUAAAEAAA4AAQAAEAAAAQABgCACCAAgQiAEABAQAA=</HashCode>
+      <HashCode>AIAUAAAEAAA4AAQAAEAAwAQAJgCgSDAAhAiAEABAQAA=</HashCode>
       <FileName>Vehicule.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -74,7 +83,11 @@
     <Position X="2.5" Y="4.25" Width="1.5" />
     <InheritanceLine Type="TrafficLightsGroupe4.Vehicule" FixedToPoint="true">
       <Path>
-        <Point X="2" Y="5.483" />
+        <Point X="1.25" Y="0.5" />
+        <Point X="1.25" Y="0.406" />
+        <Point X="2.094" Y="0.406" />
+        <Point X="2.094" Y="5.577" />
+        <Point X="2.5" Y="5.577" />
         <Point X="2.5" Y="5.483" />
       </Path>
     </InheritanceLine>
