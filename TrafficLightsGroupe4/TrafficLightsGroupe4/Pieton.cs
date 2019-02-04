@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    class Pieton : IFeu
+    class Pieton :  IUsager
     {
         public Pieton()
         {
@@ -27,6 +27,15 @@ namespace TrafficLightsGroupe4
         }
 
         public void Accelerer()
+        {
+            // -> int speed = vitesse * 2 
+        }
+        public void StopperM()
+        {
+
+        }
+
+        public void AccelererM()
         {
             // -> int speed = vitesse * 2 
         }

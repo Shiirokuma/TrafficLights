@@ -10,11 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks; 
 
 namespace TrafficLightsGroupe4
 {
-    public class Velo : Vehicule, IFeu
+    public class Velo : Vehicule, IUsager
     {
         public Velo(int roues, int directionImage, double taille, double vitesse, double posX, double posY, string immatriculation, string marque, string modele, string couleur, Type type, string pointDepart, string pointArrivee, string trajet, string image) : base(roues, directionImage, taille, vitesse, posX, posY, immatriculation, marque, modele, couleur, type, pointDepart, pointArrivee, trajet, image)
         {
@@ -30,5 +30,14 @@ namespace TrafficLightsGroupe4
             // -> int speed = vitesse * 2 
         }
 
+        public void StopperM()
+        {
+
+        }
+
+        public void AccelererM()
+        {
+            // -> int speed = vitesse * 2 
+        }
     }
 }

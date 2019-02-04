@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    interface IFeu
+    interface IUsager
     {
 
         void Stopper();
         void Accelerer();
+
     }
 }

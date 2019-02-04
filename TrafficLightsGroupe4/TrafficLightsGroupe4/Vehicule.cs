@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    public abstract class Vehicule
+    public abstract class Vehicule 
     {
         private int _roues;
         private int _directionImage;
@@ -72,12 +72,12 @@ namespace TrafficLightsGroupe4
             this.Image = image;
         }
 
-        /*public double Accelerer()
+        /*public void AccelererM()
         {
             throw new NotImplementedException();
-        }*/
+        }
 
-        /*public double Freiner()
+        public void StopperM()
         {
             throw new NotImplementedException();
         }*/
