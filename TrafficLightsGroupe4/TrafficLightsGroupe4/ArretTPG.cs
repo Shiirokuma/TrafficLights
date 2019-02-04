@@ -27,7 +27,7 @@ namespace TrafficLightsGroupe4
         }
         public ArretTPG(string nomArret)
         {
-            NomArret = nomArret;
+            this.NomArret = nomArret;
         }
 
         public void ArretBus(Bus bus)

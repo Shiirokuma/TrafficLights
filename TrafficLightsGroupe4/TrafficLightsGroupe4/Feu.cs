@@ -38,8 +38,8 @@ namespace TrafficLightsGroupe4
         }
         public Feu(string type, bool etat)
         {
-            Type = type;
-            Etat = etat;
+            this.Type = type;
+            this.Etat = etat;
         }
         public void ChangemantDEtat()
         {
@@ -49,14 +49,10 @@ namespace TrafficLightsGroupe4
             {
                 test.Add(new Pieton());
                 test.Add(new Velo());
-                usager.StopperM();
+                usager.Stopper();
                 
             }
         }
 
-        public void tester()
-        {
-
-        }
     }
 }

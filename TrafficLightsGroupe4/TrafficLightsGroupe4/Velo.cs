@@ -30,14 +30,5 @@ namespace TrafficLightsGroupe4
             // -> int speed = vitesse * 2 
         }
 
-        public void StopperM()
-        {
-
-        }
-
-        public void AccelererM()
-        {
-            // -> int speed = vitesse * 2 
-        }
     }
 }

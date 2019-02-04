@@ -28,8 +28,8 @@ namespace TrafficLightsGroupe4
 
         public Route(int direction, string nom)
         {
-            Direction = direction;
-            Nom = nom;
+            this.Direction = direction;
+            this.Nom = nom;
         }
 
     }

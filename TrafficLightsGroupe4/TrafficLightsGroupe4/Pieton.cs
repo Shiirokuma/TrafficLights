@@ -6,7 +6,6 @@
 * Version     : 1.0.0 
 * Date de création   : 21.01.2019
 */
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
