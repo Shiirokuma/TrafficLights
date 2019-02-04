@@ -14,11 +14,30 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    public class Bus : Vehicule
+    public class Bus : Vehicule, IArretTPG, IFeu
     {
         public Bus(int roues, int directionImage, double taille, double vitesse, double posX, double posY, string immatriculation, string marque, string modele, string couleur, Type type, string pointDepart, string pointArrivee, string trajet, string image) : base(roues, directionImage, taille, vitesse, posX, posY, immatriculation, marque, modele, couleur, type, pointDepart, pointArrivee, trajet, image)
         {
                 
+        }
+        public void Stopper()
+        {
+
+        }
+
+        public void Accelerer()
+        {
+            // -> int speed = vitesse * 2 
+        }
+
+        public void StopperArret()
+        {
+
+        }
+
+        public void AccelererArret()
+        {
+            // -> int speed = vitesse * 2 
         }
     }
 }
