@@ -32,12 +32,12 @@ namespace TrafficLightsGroupe4
         }
         public Feu(string type, bool etat)
         {
-            Type = type;
-            Etat = etat;
+            this.Type = type;
+            this.Etat = etat;
         }
         public void ChangemantDEtat()
         {
-            Etat = !Etat;
+            this.Etat = !Etat;
         }
     }
 }

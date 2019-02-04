@@ -51,7 +51,7 @@ namespace TrafficLightsGroupe4
         public string Trajet { get => _trajet; set => _trajet = value; }
         public string Image { get => _image; set => _image = value; }
 
-        private Type _type;
+        public Type _type;
 
         public Vehicule(int roues, int directionImage, double taille, double vitesse, double posX, double posY, string immatriculation, string marque, string modele, string couleur, Type type, string pointDepart, string pointArrivee, string trajet, string image)
         {
@@ -74,12 +74,24 @@ namespace TrafficLightsGroupe4
 
         public double Accelerer()
         {
-            throw new NotImplementedException();
+            double vitesse = this.Vitesse;
+            for (int i = 50; i > this.Vitesse; i -= 10)
+            {
+                vitesse += 10;
+            }
+            this.Vitesse = vitesse;
+            return this.Vitesse;
         }
 
         public double Freiner()
         {
-            throw new NotImplementedException();
+            double vitesse = this.Vitesse;
+            for (int i = 0; i < this.Vitesse; i += 10)
+            {
+                vitesse -= 10;
+            }
+            this.Vitesse = vitesse;
+            return this.Vitesse;
         }
     }
 }
