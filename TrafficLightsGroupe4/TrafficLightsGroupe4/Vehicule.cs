@@ -72,8 +72,14 @@ namespace TrafficLightsGroupe4
             this.Image = image;
         }
 
+        public Vehicule(double vitesse, double posX, double posY)
+        {
+            this.Vitesse = vitesse;
+            this.PosX = posX;
+            this.PosY = posY;
 
-        public double Accelerer()
+        }
+       /* public double Accelerer()
         {
             double vitesse = this.Vitesse;
             for (int i = 50; i > this.Vitesse; i -= 10)
@@ -93,6 +99,6 @@ namespace TrafficLightsGroupe4
             }
             this.Vitesse = vitesse;
             return this.Vitesse;
-        }
+        }*/
     }
 }

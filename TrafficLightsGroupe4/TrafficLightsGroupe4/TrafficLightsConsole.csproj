@@ -48,8 +48,6 @@
     <Compile Include="Bus.cs" />
     <Compile Include="Camion.cs" />
     <Compile Include="Feu.cs" />
-    <Compile Include="IArretTPG.cs" />
-    <Compile Include="IFeu.cs" />
     <Compile Include="Moto.cs" />
     <Compile Include="Pieton.cs" />
     <Compile Include="Program.cs" />
