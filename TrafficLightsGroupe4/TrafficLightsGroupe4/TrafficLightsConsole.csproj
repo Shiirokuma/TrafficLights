@@ -48,12 +48,18 @@
     <Compile Include="Bus.cs" />
     <Compile Include="Camion.cs" />
     <Compile Include="Feu.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="IArretTPG.cs" />
+    <Compile Include="IFeu.cs" />
+>>>>>>> 274f0063c9648c003d8b6431fe5ecd25cf4f561e
     <Compile Include="Moto.cs" />
     <Compile Include="Pieton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Route.cs" />
     <Compile Include="Tram.cs" />
+    <Compile Include="IUsager.cs" />
     <Compile Include="Vehicule.cs" />
     <Compile Include="Velo.cs" />
     <Compile Include="Voiture.cs" />
@@ -62,10 +68,13 @@
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <EmbeddedResource Include="Program.resx">
       <DependentUpon>Program.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+=======
+>>>>>>> 274f0063c9648c003d8b6431fe5ecd25cf4f561e
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

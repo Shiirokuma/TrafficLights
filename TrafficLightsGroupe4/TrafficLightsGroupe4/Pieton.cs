@@ -6,7 +6,6 @@
 * Version     : 1.0.0 
 * Date de création   : 21.01.2019
 */
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,11 +14,30 @@ using System.Threading.Tasks;
 
 namespace TrafficLightsGroupe4
 {
-    class Pieton
+    class Pieton :  IUsager
     {
         public Pieton()
         {
 
         }
+        public void Stopper()
+        {
+
+        }
+
+        public void Accelerer()
+        {
+            // -> int speed = vitesse * 2 
+        }
+        public void StopperM()
+        {
+
+        }
+
+        public void AccelererM()
+        {
+            // -> int speed = vitesse * 2 
+        }
+
     }
 }
