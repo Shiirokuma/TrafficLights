@@ -49,10 +49,13 @@
     <Compile Include="Camion.cs" />
     <Compile Include="Feu.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <Compile Include="IArretTPG.cs" />
     <Compile Include="IFeu.cs" />
 >>>>>>> 274f0063c9648c003d8b6431fe5ecd25cf4f561e
+=======
+>>>>>>> 836ebdd335e31fea0a7f0a1b12f7eb3a27a29133
     <Compile Include="Moto.cs" />
     <Compile Include="Pieton.cs" />
     <Compile Include="Program.cs" />

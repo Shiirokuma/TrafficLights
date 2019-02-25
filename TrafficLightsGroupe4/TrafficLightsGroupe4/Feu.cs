@@ -20,27 +20,42 @@ namespace TrafficLightsGroupe4
         private bool _etat;
         private List<Vehicule> _traffic;
         private List<Pieton> _pieton;
+        private double _posX;
+        private double _posY;
         IUsager usager;
 
         List<IUsager> test = new List<IUsager>();
-
-        
-        
 
         public string Type { get => _type; set => _type = value; }
         public bool Etat { get => _etat; set => _etat = value; }
         public List<Vehicule> Traffic { get => _traffic; set => _traffic = value; }
         internal List<Pieton> Pieton { get => _pieton; set => _pieton = value; }
+        public double PosX { get => _posX; set => _posX = value; }
+        public double PosY { get => _posY; set => _posY = value; }
 
-        public Feu() : this("voiture", true)
+        /*public Feu() : this("voiture", true, 30, 10)
+        {
+        }*/
+
+        public Feu()
         {
 
         }
-        public Feu(string type, bool etat)
+        public Feu(string type, bool etat, double posX, double posY)
         {
             this.Type = type;
             this.Etat = etat;
+            PosX = posX;
+            PosY = posY;
+
         }
+        public Feu(double posX, double posY)
+        {
+            PosX = posX;
+            PosY = posY;
+
+        }
+
         public void ChangemantDEtat()
         {
             Etat = !Etat;
@@ -48,7 +63,6 @@ namespace TrafficLightsGroupe4
             if (Etat == false)
             {
                 test.Add(new Pieton());
-                test.Add(new Velo());
                 usager.Stopper();
                 
             }

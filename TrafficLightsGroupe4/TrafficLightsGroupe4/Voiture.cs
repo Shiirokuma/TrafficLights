@@ -16,18 +16,25 @@ namespace TrafficLightsGroupe4
 {
     public class Voiture : Vehicule, IUsager
     {
+        public Voiture(double vitesse, double posX, double posY): base(vitesse, posX, posY)
+        {
+            Vitesse = vitesse;
+            PosX = posX;
+            PosY = posY;
+        }
+
         public Voiture(int roues, int directionImage, double taille, double vitesse, double posX, double posY, string immatriculation, string marque, string modele, string couleur, Type type, string pointDepart, string pointArrivee, string trajet, string image) : base(roues, directionImage, taille, vitesse, posX, posY, immatriculation, marque, modele, couleur, type, pointDepart, pointArrivee, trajet, image)
         {
 
         }
         public void Stopper()
         {
-
+            PosX = PosX;
         }
 
         public void Accelerer()
         {
-            // -> int speed = vitesse * 2 
+            PosX = PosX + Vitesse;
         }
 
     }
