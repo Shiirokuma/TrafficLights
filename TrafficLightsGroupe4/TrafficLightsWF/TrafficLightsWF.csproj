@@ -45,14 +45,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bus.cs" />
+    <Compile Include="carTestClass.cs" />
+    <Compile Include="Feu.cs" />
+    <Compile Include="FeuTestClass.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="Moto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicule.cs" />
+    <Compile Include="Voiture.cs" />
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +94,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\route.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\route1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voitureTOP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FeuVert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FeuRouge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voitureBOTTOM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrfoure.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voitureLEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voitureRIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\motoTOP.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -11,13 +11,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace TrafficLightsGroupe4
+namespace TrafficLightsWF
 {
-    public class Program
+    public class Bus : Vehicule
     {
-        static void Main(string[] args)
+        public Bus(int direction, double vitesse, int posX, int posY, PictureBox pcxImage, PictureBox pcxDetectCollision, bool collisionVehicle, bool collisionFeu) : base(direction, vitesse, posX, posY, pcxImage, pcxDetectCollision, collisionVehicle, collisionFeu)
         {
+                
         }
     }
 }

@@ -63,6 +63,56 @@ namespace TrafficLightsWF.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bus {
+            get {
+                object obj = ResourceManager.GetObject("Bus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carrfoure {
+            get {
+                object obj = ResourceManager.GetObject("carrfoure", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FeuRouge {
+            get {
+                object obj = ResourceManager.GetObject("FeuRouge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FeuVert {
+            get {
+                object obj = ResourceManager.GetObject("FeuVert", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap motoTOP {
+            get {
+                object obj = ResourceManager.GetObject("motoTOP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap route {
             get {
                 object obj = ResourceManager.GetObject("route", resourceCulture);
@@ -76,6 +126,46 @@ namespace TrafficLightsWF.Properties {
         internal static System.Drawing.Bitmap route1 {
             get {
                 object obj = ResourceManager.GetObject("route1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap voitureBOTTOM {
+            get {
+                object obj = ResourceManager.GetObject("voitureBOTTOM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap voitureLEFT {
+            get {
+                object obj = ResourceManager.GetObject("voitureLEFT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap voitureRIGHT {
+            get {
+                object obj = ResourceManager.GetObject("voitureRIGHT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap voitureTOP {
+            get {
+                object obj = ResourceManager.GetObject("voitureTOP", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
